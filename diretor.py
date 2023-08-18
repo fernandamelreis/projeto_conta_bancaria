@@ -1,6 +1,6 @@
-from funcionario import Funcionario
+from usuario import Usuario
 
-class Diretor(Funcionario):
-    def __init__(self, nome, cpf, salario, senha):
-        super().__init__(nome, cpf, salario, senha)
+class Diretor(Usuario):
+    def __init__(self, nome, cpf, salario, email, senha):
+        super().__init__(nome, cpf, salario, email, senha)
         

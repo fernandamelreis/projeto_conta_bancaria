@@ -1,8 +1,8 @@
-from funcionario import Funcionario
+from usuario import Usuario
 
-class Gerente (Funcionario):
-    def __init__(self, nome, cpf, salario, senha, qtde_funcionarios):
-        super().__init__(nome, cpf, salario, senha)
+class Gerente (Usuario):
+    def __init__(self, nome, cpf, salario, email, senha, qtde_funcionarios):
+        super().__init__(nome, cpf, salario, email, senha)
         self._qtde_funcionarios = qtde_funcionarios
         
     @property
