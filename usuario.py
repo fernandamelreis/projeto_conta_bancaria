@@ -51,6 +51,7 @@ class Usuario:
         nome = input("Digite o nome: ")
         cpf = input("Digite o CPF: ")
         salario = input("Digite o salario: ")
+        email = input("Cadastre um e-mail: ")
         senha = input("Cadastre uma senha: ")
         
         print("-----------------------")
@@ -58,14 +59,16 @@ class Usuario:
         print("Nome: ", nome)
         print("CPF: ", cpf)
         print("Salário: ", salario)
+        print("E-mail: ", email)
         print("Senha: ******")
         print("-----------------------")
         
     def Autentica(self):
         print("--- LOGIN ---")
+        email = input("Digite o e-mail: ")
         senha = input("Digite a senha: ")
         
-        if (senha == self.senha):
+        if ((email == self.email) and (senha == self.senha)):
             print("Usuário autenticado no sistema!")
         else:
             print("Usuário não logado!")

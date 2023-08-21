@@ -5,8 +5,7 @@ class Conta(Usuario):
         self._agencia = agencia 
         self._conta = conta
         self._dinheiro = dinheiro
-        self._valor = valor
-        
+        self._valor = valor        
         
     @property
     def agencia(self):

@@ -12,4 +12,10 @@ class Gerente (Usuario):
     def qtde_funcionarios(self, qtde_funcionarios):
         self._qtde_funcionarios = qtde_funcionarios
         
+    def Cadastro(self):
+        return super().Cadastro()
+    
+    def Autentica(self):
+        return super().Autentica()
+        
     
