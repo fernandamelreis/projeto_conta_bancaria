@@ -1,2 +1,2 @@
-# python_projeto
-Projeto conta com níveis de usuário usando herança de atributos na programação orientada com a linguagem Python.
+# Projeto Conta Bancária
+Projeto conta com níveis de usuário, controle de acesso e conceitos de programação orientada a objetos usando a linguagem Python.
